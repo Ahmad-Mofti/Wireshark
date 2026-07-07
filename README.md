@@ -6,6 +6,13 @@ The project consists of four phases, with Phase 1,2,3 are mandatory & Phase 4 be
 
 **All four phases have been implemented.**
 
+
+We try 3 site with curl: `neverssl.com` , `icio.us` , `babytree.com`
+and their capture file & images saved in captures folder & images folder.
+
+However, in the following steps we continued all analysis just on `neverssl.com`
+
+
 ## Author
 
 - **Ahmad Mofti - 40217023170**
@@ -195,7 +202,7 @@ In this phase we wrote a script in language `Go` that reads a Wireshark capture 
 ### How To Run
 
 
-Instal dependencies:
+Install dependencies:
 
 ```bash
 go mod tidy
