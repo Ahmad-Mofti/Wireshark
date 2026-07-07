@@ -181,3 +181,32 @@ Furthermore, network bandwidth limitations cannot be the cause of this bottlenec
 
 Consequently, this latency demonstrates that the server's backend consumed substantial time processing and constructing the response data.
 
+
+<br>
+<br>
+
+
+## Phase 4(Optional)
+
+In this phase we wrote a script in language `Go` that reads a Wireshark capture file (.pcap or .pcapng), parses the HTTP packets in it, and prints a one-line summary for each: source/destination IP:port, and either the request line or the response status code.
+
+<br>
+
+### How To Run
+
+
+Instal dependencies:
+
+```bash
+go mod tidy
+```
+
+
+Run:
+
+```
+cd phase-4
+go run . path/to/YourCapture.pcapng
+```
+
+You can use `go run .` against `go run . path/to/capture.pcapng` and it use the default file in project (neverssl)
