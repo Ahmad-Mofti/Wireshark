@@ -202,6 +202,13 @@ In this phase we wrote a script in language `Go` that reads a Wireshark capture 
 
 ### How To Run
 
+<br>
+
+Going to the correct path:
+
+```bash
+cd phase-4
+```
 
 Install dependencies:
 
@@ -213,7 +220,6 @@ go mod tidy
 Run:
 
 ```
-cd phase-4
 go run . path/to/YourCapture.pcapng
 ```
 
