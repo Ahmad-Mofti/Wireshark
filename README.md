@@ -55,6 +55,10 @@ In this phase, we capture the packets in Wireshark.
 <img width="1068" height="298" alt="image" src="https://github.com/user-attachments/assets/b11900d2-dcd7-43f7-8e46-f6d8b60f6f13" />
 
 
+<br>
+<br>
+
+And now, going to analysis the GET packet details:
 
 
 ### Applicaiton Layer
